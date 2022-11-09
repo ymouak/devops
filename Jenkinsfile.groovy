@@ -9,7 +9,7 @@ properties([
 
         [
 
-            $class: 'GitHubPushTrigger',
+            $class: 'GitLabPushTrigger',
 
             branchFilterType: 'All',
 
